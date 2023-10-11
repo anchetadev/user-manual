@@ -10,6 +10,9 @@ nav {
 .navbar-brand {
   color: #290000 !important;
 }
+.sm-view {
+  display: none;
+}
 a {
   color: #8f0000;
 }
@@ -62,6 +65,7 @@ h2{
 
 .flip-card-front > *{
   color: #8f0000;
+  font-size: xx-large;
 }
 .flip-card-back > *{
   color: white;
@@ -142,4 +146,31 @@ footer {
 }
 .text-small {
   font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    margin-top: 120px;
+  }
+  .sm-view{
+    display: none;
+  }
+  .lg-view{
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body{
+    margin-top: 160px;
+  }
+  .lg-view{
+    display: none;
+  }
+  .sm-view {
+    display: inline;
+  }
+  nav > ul {
+    /* display: inline !important; */
+  }
 }
