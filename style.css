@@ -39,6 +39,13 @@ h2{
   margin-bottom: 20px;
   padding: 10px 15px;
 }
+.commonQs{
+  background: #290000;
+}
+
+.commonQs >h2 {
+  color: white;
+}
 
 .row{
   margin: 0;
