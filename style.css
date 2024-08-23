@@ -3,21 +3,23 @@ body{
 }
 nav {
   width: 100vw;
-  background-color: #ffd6d6;
+  background-color: #290000;
   z-index: 100;
   color: #400080;
+  border-bottom: 1px #290000 solid;
 }
 .navbar-brand {
-  color: #290000 !important;
+  color: white !important;
 }
 .sm-view {
   display: none;
 }
 a {
-  color: #8f0000;
+  /* color: #8f0000; */
+  color: white;
 }
 a:hover{
-  color: #290000;
+  color: red;
   text-decoration: underline !important;
 }
 h1,h5{
@@ -29,8 +31,9 @@ h2{
 }
 .jumbotron {
   background-color: #ffd6d6;
-  margin-left: 15px;
-  margin-right: 15px;
+
+  /* margin: 0 15px 15px 15px; */
+  border-radius: 0;
   color: #290000;
 
 }
